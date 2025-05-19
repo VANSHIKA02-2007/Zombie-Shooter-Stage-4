@@ -56,14 +56,14 @@ function setup() {
   
   bg = createSprite(displayWidth/2-20,displayHeight/2-40,20,20)
   bg.addImage(bgImg)
-  bg.scale = 1.6;
+  bg.scale = 2;
   bg.x = bg.width/2;
 
   zombieGroup = new Group();
   bulletGroup = new Group();
 
 //creating the player sprite
-   player = createSprite(displayWidth-1155, displayHeight-283, 50, 50);
+   player = createSprite(displayWidth-1255, displayHeight-283, 50, 50);
    player.addImage(shooterImg)
    player.scale = 0.3
    player.debug = false
