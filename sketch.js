@@ -63,7 +63,7 @@ function setup() {
   bulletGroup = new Group();
 
 //creating the player sprite
-   player = createSprite(displayWidth-1255, displayHeight-283, 50, 50);
+   player = createSprite(displayWidth-1155, displayHeight-283, 50, 50);
    player.addImage(shooterImg)
    player.scale = 0.3
    player.debug = false
