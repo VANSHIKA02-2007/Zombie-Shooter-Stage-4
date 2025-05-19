@@ -56,7 +56,7 @@ function setup() {
   
   bg = createSprite(displayWidth/2-20,displayHeight/2-40,20,20)
   bg.addImage(bgImg)
-  bg.scale = 1.4;
+  bg.scale = 1.5;
   bg.x = bg.width/2;
 
   zombieGroup = new Group();
